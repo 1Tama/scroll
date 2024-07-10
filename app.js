@@ -5,13 +5,11 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.add('show');
         }
         else {
-            entry.targetClassList.remove('show');
+            entry.target.ClassList.remove('show');
         }
     });
 });
 
 
 const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((element) => {
-    observer.observe(element);
-});
+hiddenElements.forEach((el) => observer.observe(el));
