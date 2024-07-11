@@ -102,3 +102,11 @@ section {
     height: 50px;
     margin: 10px;
 }
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
